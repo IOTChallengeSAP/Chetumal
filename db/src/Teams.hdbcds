@@ -1,0 +1,10 @@
+namespace Chetumal.db;
+
+context Teams {
+
+    /*@@layout{"layoutInfo":{"x":-204,"y":-146.5}}*/
+    entity Team_master {
+        key ID   : Integer;
+            TEAM : String(50);
+    };
+};
