@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "Chetumal.db.tables::Teams.Team_master",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "Chetumal.db.tables::soccer_dims.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "ID",
+					"TEAM"
+                ]
+            }
+        }
+    ]
+}

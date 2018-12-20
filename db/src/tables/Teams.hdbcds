@@ -1,4 +1,4 @@
-namespace Chetumal.db;
+namespace Chetumal.db.tables;
 
 context Teams {
 
